@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  LocalizationWithSwiftUI
+
+  Created by Ramill Ibragimov on 01.05.2020.
+  Copyright © 2020 Ramill Ibragimov. All rights reserved.
+*/
+"Registration"  = "Registrierung";
+"Username"      = "Benutzername";
+"FirstName"     = "Vorname";
+"LastName"      = "Nachname";
+"SignUp"        = "Anmelden";

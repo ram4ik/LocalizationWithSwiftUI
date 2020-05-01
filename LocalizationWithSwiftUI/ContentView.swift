@@ -12,17 +12,17 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             Form {
-                TextField("Username", text: Binding.constant(""))
+                TextField(LocalizedStringKey("Username"), text: Binding.constant(""))
                 Section {
-                    TextField("First name", text: Binding.constant(""))
-                    TextField("Last name", text: Binding.constant(""))
+                    TextField(LocalizedStringKey("FirstName"), text: Binding.constant(""))
+                    TextField(LocalizedStringKey("LastName"), text: Binding.constant(""))
                 }
                 Button(action: {
                     
                 }) {
-                    Text("SignUp")
+                    Text(LocalizedStringKey("SignUp"))
                 }
-            }.navigationBarTitle("Registration")
+            }.navigationBarTitle(LocalizedStringKey("Registration"))
         }
     }
 }
