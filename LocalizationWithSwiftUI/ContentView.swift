@@ -10,7 +10,20 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        NavigationView {
+            Form {
+                TextField("Username", text: Binding.constant(""))
+                Section {
+                    TextField("First name", text: Binding.constant(""))
+                    TextField("Last name", text: Binding.constant(""))
+                }
+                Button(action: {
+                    
+                }) {
+                    Text("SignUp")
+                }
+            }.navigationBarTitle("Registration")
+        }
     }
 }
 
